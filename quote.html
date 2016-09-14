@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>My Quote</title>
+    <script type="text/javascript">
+   
+        var quotearr =["Best day Ever","Nature is best teacher","Never Give up","Failure is the stepping stone for success"];
+        
+        function displaydetails() {
+                       var ronquote = Math.floor(Math.random()*(quotearr.length-0));
+                       document.getElementById("quote").innerHTML =quotearr[ronquote]; 
+            
+        }
+    </script>
+</head>
+<body onload="displaydetails();">
+    
+    <div id="quote"></div>
+
+    
+</body>
+</html>
